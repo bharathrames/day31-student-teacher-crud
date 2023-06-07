@@ -45,7 +45,7 @@ const Students = () => {
                         </CardContent>
                         <CardActions>
                             <Button size="small" variant="outlined"
-                                onClick={() => history.push(`/edit/${stud.id}`)}
+                                onClick={() => history.push(`/edit/${idx}`)}
                             >Edit<EditIcon/></Button>
                             <Button size="small" color="error" variant="outlined"
                                 onClick={() => deleteStudent(stud.id)}
